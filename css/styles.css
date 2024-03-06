@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3E5D8;
+    padding: 100px 400px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main {
+    background-color: #FFF7FC;
+    border-radius: 50px;
+}
+
+.hero {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50px;
+    padding: 40px;
+}
+
+.desc-1 {
+    padding: 10px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.desc-1 > h1 {
+    font-size: 40px;
+}
+
+.desc-1 > p {
+    color: gray;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.desc-2 {
+    padding: 40px;
+    z-index: 50;
+}
+
+.desc-2 > .text {
+    background-color: #F3E5D8;
+    padding: 10px 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.desc-2 > .text > h1 {
+    color: #8D4461;
+}
+
+.text > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text > ul > li {
+    display: flex;
+    gap: 10px;
+}
+
+.text > ul > li {
+    font-size: 14px;
+}
+
+.title {
+    font-size: 15px;
+}
+
+.time {
+    color: gray;
+}
+
+.desc-3 {
+    padding: 10px 40px 40px 40px;
+}
+
+.desc-3 > .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+hr {
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.desc-5 {
+    padding: 0 40px 40px 40px;
+}
+
+.text > h1 {
+    margin-bottom: 10px;
+}
+
+.text > p {
+    margin-bottom: 10px;
+}
+
+.class_of_food-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 200px;
+    margin-bottom: 5px;
+}
+
+.first > p {
+    margin-top: 10px;
+}
+
+.types {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.values {
+    color: #8D4461;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/*navbar-mobile*/
+@media screen and (max-width: 768px) {
+
+}
